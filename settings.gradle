@@ -1,0 +1,1 @@
+include ':app', ':yelp-fusion-client-0.1.2', ':retrofit-2.3.0', ':okhttp-3.9.0', ':okio-1.13.0', ':jackson-databind-2.9.2', ':jackson-databind-2.9.2-sources', ':jackson-databind-2.9.2-javadoc', ':universal-image-loader-1.9.5', ':picasso-2.5.2'

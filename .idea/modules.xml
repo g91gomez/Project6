@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/What'sForDinner.iml" filepath="$PROJECT_DIR$/What'sForDinner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jackson-databind-2.9.2/jackson-databind-2.9.2.iml" filepath="$PROJECT_DIR$/jackson-databind-2.9.2/jackson-databind-2.9.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jackson-databind-2.9.2-javadoc/jackson-databind-2.9.2-javadoc.iml" filepath="$PROJECT_DIR$/jackson-databind-2.9.2-javadoc/jackson-databind-2.9.2-javadoc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jackson-databind-2.9.2-sources/jackson-databind-2.9.2-sources.iml" filepath="$PROJECT_DIR$/jackson-databind-2.9.2-sources/jackson-databind-2.9.2-sources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okhttp-3.9.0/okhttp-3.9.0.iml" filepath="$PROJECT_DIR$/okhttp-3.9.0/okhttp-3.9.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okio-1.13.0/okio-1.13.0.iml" filepath="$PROJECT_DIR$/okio-1.13.0/okio-1.13.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/picasso-2.5.2/picasso-2.5.2.iml" filepath="$PROJECT_DIR$/picasso-2.5.2/picasso-2.5.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/retrofit-2.3.0/retrofit-2.3.0.iml" filepath="$PROJECT_DIR$/retrofit-2.3.0/retrofit-2.3.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/universal-image-loader-1.9.5/universal-image-loader-1.9.5.iml" filepath="$PROJECT_DIR$/universal-image-loader-1.9.5/universal-image-loader-1.9.5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yelp-fusion-client-0.1.2/yelp-fusion-client-0.1.2.iml" filepath="$PROJECT_DIR$/yelp-fusion-client-0.1.2/yelp-fusion-client-0.1.2.iml" />
+    </modules>
+  </component>
+</project>

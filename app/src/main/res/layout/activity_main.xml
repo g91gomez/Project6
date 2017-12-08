@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.g91go.whatsfordinner.MainActivity">
+
+    <CheckBox
+        android:id="@+id/checkBox_Mexican"
+        android:layout_width="106dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="16dp"
+        android:text="Mexican"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="49dp"
+        android:layout_marginStart="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Italian"
+        android:layout_width="100dp"
+        android:layout_height="33dp"
+        android:text="Italian"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="49dp"
+        app:layout_constraintHorizontal_bias="0.514" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Chinese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="38dp"
+        android:text="Chinese"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="38dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Vietnamese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="Vietnamese"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="128dp"
+        android:layout_marginStart="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Japanese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Japanese"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="128dp"
+        app:layout_constraintHorizontal_bias="0.501" />
+
+    <CheckBox
+        android:id="@+id/checkBox_French"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginTop="128dp"
+        android:text="Greek"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Korean"
+        android:layout_width="109dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="16dp"
+        android:text="Korean"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="207dp"
+        android:layout_marginStart="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox_American"
+        android:layout_width="93dp"
+        android:layout_height="33dp"
+        android:text="American"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="207dp"
+        app:layout_constraintHorizontal_bias="0.501" />
+
+    <Button
+        android:id="@+id/button_AdvFilters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="-5dp"
+        android:layout_marginTop="203dp"
+        android:onClick="advFilters"
+        android:text="Options"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintLeft_toRightOf="@+id/checkBox_American"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="262dp"
+        android:layout_height="248dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView_Title"
+        app:layout_constraintVertical_bias="0.937"
+        app:srcCompat="@drawable/wheel_trans"
+        tools:clickable="true" />
+
+    <TextView
+        android:id="@+id/textView_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Select at least 2 filters:"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/r_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="232dp"
+        android:layout_marginTop="8dp"
+        android:onClick="randomizeButton"
+        android:text="RANDOMIZE!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825"
+        app:layout_constraintHorizontal_bias="0.501" />
+
+</android.support.constraint.ConstraintLayout>
